@@ -7,17 +7,9 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Quimica</td>
-      <td>Difícil</td>
-    </tr>
-    <tr>
-      <td>Física</td>
-      <td>Difícil</td>
-    </tr>
-    <tr>
-      <td>Lengua</td>
-      <td>Fácil</td>
+    <tr *ngFor="let curso of cursos">
+      <td>{{curso.materia}}</td>
+      <td>{{curso.dificultad}}</td>
     </tr>
   </tbody>
 </table>
