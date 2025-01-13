@@ -1,4 +1,6 @@
-export const cursos = [
+import { Curso } from "../models/curso-to"
+
+export const cursos: Curso[] = [
   {
     materia: 'Matemáticas',
     dificultad: 'Intermedia'

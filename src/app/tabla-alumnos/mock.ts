@@ -1,4 +1,6 @@
-export const alumnos = [
+import { Alumno } from "../models/alumno-to"
+
+export const alumnos: Alumno[] = [
   {
     nombre: 'Ricardo',
     apellido: 'Pérez',
